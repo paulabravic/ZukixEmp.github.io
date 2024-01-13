@@ -1,0 +1,27 @@
+.bgcolor{
+    background-color: #e6e4d7;
+}
+/* Navbar */
+.header{
+    background-color: #e7b03a;
+    text-align: left;
+    margin: 0%;
+    padding-left: 1rem;
+}
+.header2{
+    display: flex;
+    justify-content: flex-end;
+    text-align: end;
+    padding-right: 3rem;
+}
+.article{
+    display: flex;
+    padding-left: 3rem;
+}
+.aside1{
+    margin: 0%;
+}
+.aside2{
+    padding-left: 2rem;
+
+}
