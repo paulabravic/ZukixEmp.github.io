@@ -18,28 +18,25 @@
 <body class="tektur bgcolor">
 <!--Navbar-->
     <header class="header color">
-            <nav class="navbar navbar-expand-sm navbar-light header color">
+            <nav class="navbar fixed-top navbar-expand-sm navbar-light header color">
                 <div class="container-fluid righteous">
-                    <a class="navbar-brand color" href="#"><h2 class="color">Gon</h2></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID"
-                        aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse header2" id="navbarID">
+                    <h2 class="color">Gon</h2>
+                    <div class="header2" id="navbarID">
                         <div class="navbar-nav">
-                            <a class="nav-link active" aria-current="page" href="#"><h3 class="color">Sobre mi</h3></a>
-                            <a class="nav-link active" aria-current="page" href="#"><h3 class="color">Contacto</h3></a>
+                            <a class="nav-link active" aria-current="page" href="#sobre-mi"><h3 class="color">Sobre mi</h3></a>
+                            <a class="nav-link active" aria-current="abajo" href="#contacto"><h3 class="color">Contacto</h3></a>
                         </div>
                     </div>
                 </div>
             </nav>
     </header>
 <!--Navbar-->
+
 <!--Card-->
-    <article class="article color">
-        <div class="card">
+    <article class="article-main1 color" id="sobre-mi">
+        <aside class="card">
             <div class="front">
-                <img src="./assets/imgs/Gon.jpg" alt="" height="100%" width="100%" >
+                <img src="./assets/imgs/Gon.png" alt="" height="100%" width="100%" >
             </div>
             <div class="back">
                 <p>Gon</p>
@@ -49,12 +46,53 @@
                 <p>Macho</p>
                 <p>Recien vacunado</p>
             </div>
-        </div>
-    </article>
+        </aside>
 <!--Card-->
+<!--Aside-->
+        <article class="article2">
+            <section class="section-art2">
+                <h3>Estudios</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laudantium est ipsam, excepturi iure quisquam ipsum repellat consequatur sequi fuga ducimus non provident ullam modi aperiam doloribus hic laboriosam culpa.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis alias exercitationem totam, sequi est, iste corrupti consequatur reprehenderit tempore accusantium consectetur maiores optio officiis repudiandae voluptate, vero earum. Incidunt, earum.</p>
+            </section>
+            <section class="section-art2">
+                <h3>Trabajos</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero alias culpa corporis repellendus nam natus eos ipsam tempora voluptates iure facere velit atque, quasi doloribus sequi nostrum! Sunt, qui fugit!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nobis animi magnam voluptate ab placeat corporis aspernatur facere? Tenetur eligendi labore qui ipsum ducimus omnis? Nemo distinctio mollitia consequatur nihil?</p>
+            </section>
+        </article>
+    </article>
+<!--Aside-->
+
+<article class="article-main2 color righteous">
+    <footer class="footer-art">
+
+        <h1>Portafolio</h1>
+        <section>
+            <img src="./assets/imgs/Gon.png" alt="">
+            <img src="./assets/imgs/Gon.png" alt="">
+            <img src="./assets/imgs/Gon.png" alt="">
+        </section>
+            
+    </footer>
+</article>
+
+<footer class="footer">
+
+    <section id="contacto"> 
+    <a class="btn" href="https://github.com/ZukixEmp" role="button"><i class="fa-brands fa-github"></i></a>
+    <a class="btn" href="https://open.spotify.com/intl-es/artist/4ANJgTnPiJP0q2fjvgsT2L" role="button"><i class="fa-brands fa-spotify"></i></a>
+    <a class="btn" href="https://www.instagram.com/lezukix/" role="button"><i class="fa-brands fa-instagram"></i></a>
+    </section>
+
+    <p>Marco Sarabia 2023. Todos los derechos reservados.</p>
+
+</footer>
 </body>
 
 <footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/27b0926ae0.js" crossorigin="anonymous"></script>
 </footer>
+
 </html>
