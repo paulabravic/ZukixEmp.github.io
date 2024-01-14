@@ -114,25 +114,28 @@
 }
 .footer-art{
     background-color: #e7b03a;
-    height: 26rem;
+    height: 30rem;
     width: 100%;
 }
 .footer-art h1{
     padding: 2rem; 
     text-align: center;
 }
-.footer-art section{
+.footer-art article{
     padding-left: 1rem;
     padding-right: 1rem;
     display: flex;
     justify-content: space-evenly;
-
 }
 .footer-art section img{
     height: 15rem;
     width: 24rem;
     border-radius: 1rem;
-    
+}
+.footer-art section p{
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 1.5rem;
 }
 /* portafolio */
 
